@@ -1,0 +1,24 @@
+{
+	"description": "Megavale Soluções",
+	"name": "Igreja Assembleia de Deus - França/Paris",
+	"type": "Development",
+	"homepage": "http://www.adcolomboenfrance.fr",
+	"license": "MIT",
+	"support": {
+		"source": "https://github.com/afsmartins/app_adcolombofrance"
+	},
+	"authors": [
+        {
+            "name": "Alexandro F. S. Martins",
+            "email": "alexandrofsmartins@gmail.com"
+        },
+        {
+            "name": "Márcio laia",
+            "email": "marciolaia@gmail.com"
+        }
+    ],
+	"require": {
+        "php-activerecord/php-activerecord": "dev-master"
+    }
+
+}
