@@ -8,4 +8,6 @@ $cfg->set_connections(array('development' =>
 	'mysql://root:@localhost/mega_adcolombo?charset=utf8'));
 
 //$cfg->set_connections(array('development' =>
-  	'mysql://dbo634391538:132639megavale@db634391538.db.1and1.com/db634391538?charset=utf8'));
+  	//'mysql://dbo634391538:132639megavale@db634391538.db.1and1.com/db634391538?charset=utf8'));
+
+$info = Settings::find(1);
