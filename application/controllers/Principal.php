@@ -6,7 +6,8 @@ class Principal extends CI_CONTROLLER{
 
 	public function index()
 	{
-		$this->load->view('Principal');
+		$dados['title'] = 'Principal - Adcolombo en France';
+		$this->load->view('Principal', $dados);
 	}
 
 }
